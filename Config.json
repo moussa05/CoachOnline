@@ -1,0 +1,34 @@
+﻿{
+  "SiteUrl": "https://api.coachs-online.com",
+  "WebUrl": "https://inscription.coachs-online.com",
+  "SubdomainUrl": "*.inscription.coachs-online.com",
+  "StripeRk": "sk_test_51IVJKrBR24jaUNjGjACJViHIXF5MX2PR1Ec3mzzvh0dgk0L8sFdIqS1qDSFAst7BVT7Trhh9syzHvgks74EROFXp00MvJGezqJ",
+  //"StripeWebhookKey": "whsec_T4L7nkIYHmefp6maN7N7DaiMxKA7gvhC",
+  //localhost az
+  //"StripeWebhookKey": "whsec_IvXfbrDgWNpC6b3k6CyfU0m7kVWI1YYA",
+  //coachesdev
+  "StripeWebhookKey": "whsec_Qm004PbXcVDxH8eiSjH3aAoL7kfi1hDO",
+  "StripeWebhookKeyAccount": "",
+  "StripeWebhookPaymentsKey": "",
+  "MongoDBServer": "mongodb://localhost:27017",
+  "MongoDBName": "CoachDB",
+  "ElasticSearch": {
+    "ElasticSearchNode": "http://localhost:9200",
+    "CoachIdx": "coaches",
+    "CourseIdx": "courses",
+    "CategoryIdx": "categories",
+    "EpisodeIdx": "episodes"
+  },
+  "EnviromentPath": "/home/ubuntu/coachonlinebuild/",
+  "PayPalSecret": "",
+  "PayPalClientID": "",
+  "PayPalBaseUrl": "https://api-m.paypal.com",
+  "GoogleClientId": "",
+  "GoogleSecret": "",
+  "AWS": {
+    "Profile": "local-test-profile",
+    "Region": "eu-west-1"
+  }
+
+
+}

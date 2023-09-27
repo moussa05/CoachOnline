@@ -1,0 +1,31 @@
+{
+  "SiteUrl": "https://coachsdev.itsharkz.com",
+  //"SiteUrl": "https://localhost:44313",
+  "WebUrl": "https://coachsonlinedevfront.itsharkz.com",
+  "SubdomainUrl": "*.coachsonlinedevfront.itsharkz.com",
+  "StripeRk": "sk_test_51IVJKrBR24jaUNjGjACJViHIXF5MX2PR1Ec3mzzvh0dgk0L8sFdIqS1qDSFAst7BVT7Trhh9syzHvgks74EROFXp00MvJGezqJ",
+  "StripeWebhookKey": "whsec_Qm004PbXcVDxH8eiSjH3aAoL7kfi1hDO",
+  "StripeWebhookKeyAccount": "whsec_l1bZTvMB6lGKZ7BratkqTQamNuODEnCi",
+  "StripeWebhookPaymentsKey": "",
+  "MongoDBServer": "mongodb://localhost:27017",
+  "MongoDBName": "CoachDB",
+  "ElasticSearch": {
+    "ElasticSearchNode": "http://localhost:9200",
+    "CoachIdx": "coaches",
+    "CourseIdx": "courses",
+    "CategoryIdx": "categories",
+    "EpisodeIdx": "episodes"
+  },
+  "EnviromentPath": "./",
+  "PayPalSecret": "EGlEGoMZqb9aZ4V4QfgLmihkN2y9Eyz6zDTWeKSmY2jdrL_Yw3NuHHj_nmAaem7fqKwy4kDrRXc7IiiZ",
+  "PayPalClientID": "AXAJW5HXna5_38rPVU58tYheNipXouz-Y-7ej_KO1-_woMPeImjmCjxb-Vq9X7EnNq7mmGGRDBWmnRpX",
+  "PayPalBaseUrl": "https://api-m.sandbox.paypal.com",
+  "GoogleClientId": "77458968237-bmtva54e2tj64mcl5m0j8hs73pdfr7re.apps.googleusercontent.com",
+  //"GoogleClientId": "645345808461-p9a9l72ok3o8i5qul3gn468jejbqfi3j.apps.googleusercontent.com",
+  "GoogleSecret": "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",
+  //"GoogleSecret": "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",
+  "AWS": {
+    "Profile": "local-test-profile",
+    "Region": "eu-west-1"
+  }
+}
