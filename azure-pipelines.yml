@@ -16,17 +16,6 @@ steps:
     version: 3.1
     performMultiLevelLookup: true
     includePreviewVersions: true # Required for preview versions
-    command: 'restore'
-    feedsToUse: 'select'
-    vstsFeed: 'my-vsts-feed' # A series of numbers and letters
-
 
 variables:
   buildConfiguration: 'Release'
-
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    arguments: '--configuration $(buildConfiguration)'
-  displayName: 'dotnet build $(buildConfiguration)'
