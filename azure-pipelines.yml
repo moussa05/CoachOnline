@@ -16,15 +16,14 @@ steps:
     version: 3.1
     performMultiLevelLookup: true
     includePreviewVersions: true # Required for preview versions
-
-variables:
-  buildConfiguration: 'Release'
-steps:
-- task: DotNetCoreCLI@2
-  inputs:
     command: 'restore'
     feedsToUse: 'select'
     vstsFeed: 'my-vsts-feed' # A series of numbers and letters
+
+
+variables:
+  buildConfiguration: 'Release'
+
 
 - task: DotNetCoreCLI@2
   inputs:
