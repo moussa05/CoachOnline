@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: coachonlineservice 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: coachonlineservice
+  template:
+    metadata:
+      labels:
+        app: coachonlineservice 
+    spec:
+      containers:
+        - name: coachonlineservice 
+          image: mycontregistercoachonline.azurecr.io/coachonlineservice
+          ports:
+          - containerPort: 80
